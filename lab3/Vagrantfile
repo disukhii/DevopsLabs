@@ -69,6 +69,6 @@ Vagrant.configure("2") do |config|
    sed -n '/^Block/, /^$/ { /^$/ !p }' /proc/devices
    sudo ln -sf tmp/file  /etc/hostname
    sudo useradd testuser
-   sudo  touch /home/testuser/testuser_data && sudo chown testuser:testuser /ho>
+   sudo  touch /home/testuser/testuser_data && sudo chown testuser:testuser /home/testuser/testuser_data
    SHELL
 end
